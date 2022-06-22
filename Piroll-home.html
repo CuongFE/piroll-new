@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Buổi 14 - Làm Piroll- Home </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="pirollcss.css">
+    <style>
+        /* Header */
+        .ulheader {
+            
+            float: right;
+            list-style: none;
+            padding-right: 60px;
+        }
+        .ulheader li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #191919;
+            font-family: header;
+            font-size: 15px;       
+        }
+
+        @font-face {
+            font-family: header;
+            src: url(Montserrat-Medium.otf)
+        }
+        .ulheader .home {
+            color: #10c9c3;
+        }
+
+        .logo {
+            line-height: 100px;
+            float: left;
+            padding-left: 5%;
+
+            
+        }
+        .menuitems {
+            float: left;
+            padding: 20px;
+        }
+        header {
+            box-sizing: border-box;
+            overflow: auto;
+            height: 100px;
+        }
+        /* section */
+
+        #text {
+            box-sizing: border-box;
+            background-color: #f6f6f6;            
+            text-align: center;
+            
+        }
+        .text {
+            box-sizing: border-box;
+            padding: 6% 5% 6% 5%;
+            text-align: center;
+        }
+        .text h1 {
+            color: #171717;
+            font-family: h1;
+        }
+
+        @font-face {
+            font-family: h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+
+        #text p {
+            color: #787878;
+            font-family: p;
+        }
+
+        @font-face {
+            font-family: p;
+            src: url(nunito-sans.regular.ttf)
+        }
+        /* row 1 -ảnh hàng 1: dùng display: flex */
+        .images-row1 {
+            display: flex;
+            width: 100%;
+            
+        }
+
+        .images-row1 img {
+            width: 25%;
+           
+            
+        }
+
+        /* row2 - ảnh hàng 2 : dùng float */
+        .images-row2 {
+            overflow: auto;
+            width: 100%;
+
+        }
+
+        .images-row2-5, .images-row2-6, .images-row2-7, .images-row2-8 {
+            float: left;
+            width: 25%;
+        }
+/* phần images này là cũ : vì đã chỉnh lại : nên phần này k dùng nữa */
+        /* row 3 - ảnh hàng 3 : muốn dùng display: inline-block thì ta phải cho từng ảnh 1 thẻ div
+        ->>> bất tiện : ta nên dùng float or flex */
+        /* ta dùng flex */
+        .images-row3 {
+            display: flex;
+            width: 100%;
+        }
+
+        .images-row3 img {
+            width: 25%;
+        }
+            
+        /* Footer */
+            /* chỉnh font của từng khối */
+            /* khối 1 */
+        .k1 h1 {
+            font-size: 20px;
+            font-family: k1h1;
+            color:#fff;
+        }
+
+        @font-face {
+            font-family: k1h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .k1 p {
+            font-family: k1p;
+            margin: 0;
+            color: #bcbcbc;
+        }
+        @font-face {
+            font-family: k1p;
+            src: url(nunito-sans.regular.ttf)
+        }
+            /* khối 2 */
+        .k2 p {
+            font-family: k2p;
+            margin-bottom: 0;
+            color: #bcbcbc;
+        }
+
+        @font-face {
+            font-family: k2p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+            /* Khối 3 */
+        
+
+
+
+
+        /* Chỉnh vị trí các khối */
+        footer {
+            padding: 6% 7% 6% 7%;
+            box-sizing: border-box;
+            background-color: black;
+
+        }
+        .foot {
+            overflow: auto;
+            
+        }
+        
+        .k1 {
+            width: 35%;
+            float: left;
+        }
+        .k2 {
+            float: left;
+            width: 30%;
+            
+        }
+        .k3 {
+            float: left;
+            width: 35%;
+            
+        }
+
+        .k3{
+            overflow: auto;
+            
+        }
+
+        .k3-1, .k3-2, .k3-3 {
+            float: left;
+            
+            
+            
+        }
+
+        .k3-1 ul, .k3-2 ul, .k3-3 ul{
+            list-style: none;
+
+        }
+
+        .k3-1 ul a, .k3-2 ul a, .k3-3 ul a {
+            text-decoration: none;
+            color: #bcbcbc;
+            font-family: k3;
+            
+        }
+
+        @font-face {
+            font-family: k3;
+            src: url(nunito-sans.regular.ttf)
+        }
+        .k3-3 {
+            padding-right: 25px;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="logo">
+        </div>
+        <ul class="ulheader">
+            <li class="menuitems"><a class="home" href="#">Home</a></li>
+            <li class="menuitems"><a href="file:///Users/mlh42/Documents/Front-end%20video/Buo%CC%82%CC%89i%2014/Piroll/Piroll-about%20.html" target="_blank">About</a></li>
+            <li class="menuitems"><a href="#">Contact</a></li>
+        </ul>        
+    </header>
+    <section id="text">
+        <div class="text">
+            <h1>UI/UX & Graphic Designer</h1>
+            <pre><p> I am a Graphic & Web Designer based in New York, specializing 
+            in User Interface Design and Development.</p></pre>
+        </div>
+    </section>
+     
+    <section id="images">
+        <div class="img">
+            <img src="02_Home1.jpg">
+            <img src="02_Home2.jpg">
+            <img src="02_Home3.jpg">
+            <img src="02_Home4.jpg">
+        </div>
+
+        <div class="img">
+            <img src="02_Home5.jpg">
+            <img src="02_Home6.jpg">
+            <img src="02_Home7.jpg">
+            <img src="02_Home8.jpg">
+            
+        </div>
+
+        <div class="img">
+            <img src="02_Home9.jpg">
+            <img src="02_Home10.jpg">
+            <img src="02_Home11.jpg">
+            <img src="02_Home12.jpg">
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot">
+            <!--khối 1-->
+            <div class="k1">
+                <h1>Piroll Design, Inc.</h1>
+                <p>&#169; 2017 Piroll. All rights reserved.</p>
+                <p>Designed by robirurk</p>
+            </div>
+            <!-- Khối 2-->
+            <div class="k2">
+                <p>hello@pirolltheme.com</p>
+                <p>+44 987 065 908 </p>
+            </div>
+            <!-- Khối 3 -->
+            <div class="k3">
+                <div class="k3-1">
+                    <ul>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Carreer</a></li>
+                    </ul>
+                </div>
+
+                <div class="k3-2">
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Legals</a></li>
+                    </ul>
+                </div>
+
+                <div class="k3-3">
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </div>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,1341 @@
+        /* Header */
+        .ulheader {
+            
+            float: right;
+            list-style: none;
+            padding-right: 60px;
+        }
+        .ulheader li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #191919;
+            font-family: header;
+            font-size: 15px;       
+        }
+        .logo {
+            float: left;
+            line-height: 100px;
+            padding-left: 5%;
+            
+        }
+        .menuitems {
+            float: left;
+            padding: 20px;
+        }
+        header {
+            box-sizing: border-box;
+            overflow: auto;
+            height: 100px;
+        }
+
+        @font-face {
+            font-family: header;
+            src: url(Montserrat-Medium.otf)
+        }
+        .ulheader .home {
+            color: #10c9c3;
+        }
+            /* header bài about */
+        .ulheader .about {
+            color: #10c9c3;
+        }
+/* header có navbar mới */
+        ul {
+            list-style: none;
+        }
+
+
+        ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-size: 15px;
+            font-family: header;
+            position: relative;
+        }
+
+        @font-face {
+            font-family: header;
+            src: url(Montserrat-Medium.otf)
+            }
+
+            header {
+            background-color:white;
+            overflow: auto;
+            box-sizing:border-box;
+        }
+
+
+        .logo {
+            float: left;
+            line-height: 100px;
+            padding-left: 5%;
+            position: absolute;
+        }
+
+        .menuitems {    
+            display: inline-block;
+            padding: 25px;
+        }
+
+        .nav ul {
+            float: right;
+            margin-right: 25px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-size: 15px;
+            font-family: header;
+            position: relative;
+        }
+        .nav ul .home {
+            color: #10c9c3;
+        }
+        .nav #icon {
+            font-size: 30px;
+            line-height: 100px;
+            float: right;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        }
+        /* đổi màu chữ about - header bài about */
+
+        .nav ul .about {
+            color: #10c9c3;
+        }
+        .nav ul .project {
+            color: #10c9c3;
+        }
+
+        ul li a:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            width: 100%;
+            background: black;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform .4s linear;
+        }
+
+        ul li a:hover:before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        label #btn {
+            color: black;
+            font-size: 30px;
+            float: right;
+            line-height: 100px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+
+        }
+        #check {
+            display: none;
+        }
+
+
+/* kết thúc header có navbar */
+
+
+            /* header bài about chỉ chỉnh màu about - done */
+
+
+
+            /* header bài contact */
+        .ulheader .contact {
+            color: #10c9c3;
+        }
+            /* kết thúc header bài contact */
+        /* section */
+
+        #text {
+            box-sizing: border-box;
+            background-color: #f6f6f6;            
+            text-align: center;
+            
+        }
+        .text {
+            box-sizing: border-box;
+            padding: 6% 5% 6% 5%;
+            text-align: center;
+        }
+
+        .text h1 {
+            color: #171717;
+            font-family: h1;
+        }
+
+        @font-face {
+            font-family: h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+
+        .text p {
+            color: #787878;
+            font-family: p;
+        }
+
+        @font-face {
+            font-family: p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+    /* section của bài piroll-about : text-about */
+        #text-about {
+            box-sizing: border-box;
+            
+            background-image: url("about-pic1.jpg");
+            background-size: cover;     
+            background-repeat: no-repeat;    
+            text-align: center;
+            padding: 4% 5% 6% 5%;
+        }
+        .text-about h1 {
+            color: white;
+            font-family: h1;
+            font-size: 40px;
+        }
+
+        @font-face {
+            font-family: h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+
+        .text-about p {
+            color: white;
+            font-family: p;
+        }
+
+        @font-face {
+            font-family: p;
+            src: url(nunito-sans.regular.ttf)
+        }
+        /* kết thúc section của bài about */
+
+        /* Phần image bài Home : dùng float left */
+        #images {
+            overflow: auto;
+        }
+        .img img {
+            float: left;
+            width: 25%;
+            
+            
+        }
+           
+            
+        
+
+ 
+
+     
+        
+
+        /* row 3 - ảnh hàng 3 : muốn dùng display: inline-block thì ta phải cho từng ảnh 1 thẻ div
+        ->>> bất tiện : ta nên dùng float or flex */
+        /* ta dùng flex */
+       
+            
+        /* Footer */
+            /* chỉnh font của từng khối */
+            /* khối 1 */
+        .k1 h1 {
+            font-size: 20px;
+            font-family: k1h1;
+            color:#fff;
+        }
+
+        @font-face {
+            font-family: k1h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .k1 p {
+            font-family: k1p;
+            margin: 0;
+            color: #bcbcbc;
+        }
+        @font-face {
+            font-family: k1p;
+            src: url(nunito-sans.regular.ttf)
+        }
+            /* khối 2 */
+        .k2 p {
+            font-family: k2p;
+            margin-bottom: 0;
+            color: #bcbcbc;
+        }
+
+        @font-face {
+            font-family: k2p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+            /* Khối 3 */
+        
+
+
+
+
+        /* Chỉnh vị trí các khối */
+        footer {
+            padding: 6% 7% 6% 7%;
+            box-sizing: border-box;
+            background-color: black;
+
+        }
+        .foot {
+            overflow: auto;
+            
+        }
+        
+        .k1 {
+            width: 35%;
+            float: left;
+        }
+        .k2 {
+            float: left;
+            width: 30%;
+            
+        }
+        .k3 {
+            float: left;
+            width: 35%;
+            
+        }
+
+
+
+        .k3{
+            overflow: auto;
+            
+        }
+
+        .k3-1, .k3-2, .k3-3 {
+            float: left;            
+        }
+
+        .k3-1 ul, .k3-2 ul, .k3-3 ul{
+            list-style: none;
+
+        }
+
+        .k3-1 ul a, .k3-2 ul a, .k3-3 ul a {
+            text-decoration: none;
+            color: #bcbcbc;
+            font-family: k3;
+            
+        }
+
+        @font-face {
+            font-family: k3;
+            src: url(nunito-sans.regular.ttf)
+        }
+        .k3-2 {
+            padding-right: 25px;
+        }
+
+
+        /* section phần icon - BÀI PIROLL ABOUT */
+        #icon-ong {
+            box-sizing: border-box;
+            
+            background-color: #10c9c3;
+            color: white;
+            font-family: section-icon;
+            font-size: 15px;
+            text-transform: uppercase;
+            padding: 8% 5%;
+        }
+
+        .fa-briefcase, .fa-clock, .fa-star, .fa-heart {
+            font-size: 35px;
+        }
+
+        #icon-ong p {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+
+        @font-face {
+            font-family: section-icon;
+            src: url(Montserrat-Medium.otf)
+        }
+        .icon-cha {
+            display: fex;
+            width: 100%;
+            overflow: auto;
+            margin-left: 4%;
+
+            
+        }
+
+            /* xử lý từng khối icon */
+        .icon-bag, .icon-clock, .icon-star, .icon-heart {
+            display: flex;
+            float: left;
+            width: 25%;
+        }
+        .bag, .clock, .star, .heart {
+            margin-right: 4%;
+        }
+        /* kết thúc phần section icon */
+
+        /* section phần About-me */
+        #about-me {
+            overflow: auto;
+            background-color: #f5f5f5;
+            
+            box-sizing: border-box;
+            
+
+        }
+
+        .about-me-text {
+            box-sizing: border-box;
+            padding: 8% 8% 0 8%;
+        }
+
+        .about-me-pic, .about-me-text {
+            float: left;
+            width: 50%;
+        }
+
+
+        .about-me-text h1 {
+            font-family: aboutme;
+        }
+        @font-face {
+            font-family: aboutme;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .about-me-text p {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: given;
+            color: #787878;
+            font-size: 15px;
+        }
+        @font-face {
+            font-family: given;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+
+        /* kết thúc phần section about-me */
+
+        /* phần section Project */
+        #project {
+            background-color: #ffffff;
+            
+            text-align: center;
+            box-sizing: border-box;
+            padding: 5%;
+
+        }
+
+        .project h1 {
+            font-family: project-h1;
+        }
+        @font-face {
+            font-family: project-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .project p {
+            font-family: project-p;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #787878;
+            font-size: 15px;
+        }
+        @font-face {
+            font-family: project-p;
+            src: url(nunito-sans.regular.ttf);
+        }
+
+        button {
+            color: white;
+            background-color: #10c9c3;
+            width: 150px;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            
+        }
+        /* kết thúc phần section của project bài piroll about */
+
+
+
+
+
+
+
+
+        /* Bài mới */
+        /* Section Pic của PIROLL PROJECT */
+        .pro-text h1 {
+            font-size: 30px;       
+            font-family: light-h1;
+        }
+        @font-face {
+            font-family: light-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .pro-text p {
+            font-family: light-p;
+            color: #787878;
+            font-size: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        @font-face {
+            font-family: light-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+        b .bold {
+            font-weight: bold;
+        }
+
+        #project-image {
+            overflow: auto;
+            box-sizing: border-box;
+            background-color: #f6f6f6;
+        }
+        .proj, .project-img {
+            float: left;
+            width: 50%;
+        }
+        .project-img img {
+            width: 100%;
+            
+        }
+        .proj {
+            padding: 6%;
+        }
+        .pro-text span {
+            line-height: 30px;
+        }
+
+        
+
+        /* kết thúc section pic của piroll project */
+
+        /* Section của khối 3 priroll project */
+        #pro-k3 {
+            padding: 3%;
+        }
+        .pro-to {            
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .k3-previous, .k3-next {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: k3-pro;
+
+        }
+        .k3-previous {
+            margin-left: 6%;
+        }
+        .k3-next {
+            margin-right: 6%;
+        }
+        @font-face {
+            font-family: k3-pro;
+            src: url(Montserrat-Medium.otf)
+        }
+        .k3-pic {
+            padding: 1% 2% 0 0;
+        }
+
+
+        /* Bài contact */
+        /* section info contact info */
+        .contact-infor h1 {
+            font-size: 30px;       
+            font-family: infor-h1;
+        }
+        @font-face {
+            font-family: infor-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .contact-infor p {
+            font-family: infor-p;
+            color: #787878;
+            font-size: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+        @font-face {
+            font-family: info-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+        #infor-big {
+            background-color: #f5f5f5;
+        }
+        .infor {
+            overflow: auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .contact-infor, .send {
+            float: left;
+                   
+        }
+        .contact-infor {
+            width: 40%;
+        }
+        .send {
+            width: 60%;
+            box-sizing: border-box;
+        }
+
+        .infor {
+            padding: 6% 6% 0 6%;
+            box-sizing:border-box;
+        }
+
+            /* phần điền thông tin - send */
+        
+        .send {
+            box-sizing:border-box;
+        }
+        .title {
+            margin: 3% 0 3% 0;
+        }
+        .cmt {
+            height: 150px;
+        }
+    
+        .name, .mail, .title, .cmt {
+            padding: 1.5% 0;
+            border: none;
+        }
+        .title, .cmt {
+            width: 98%;
+            }
+    
+        /*Linh da chinh toi day*/
+        .send {
+            overflow: auto;
+        }
+        .name, .mail, .title, .cmt {
+            float: left;
+        }
+        .name, .mail {
+            width: 48%;
+        }
+        .name {
+            margin-right: 2%;
+        }
+        .cmt {
+            margin-bottom: 3%;
+        }
+        /*Linh da chinh */
+        .button {
+            width: 180px;
+            height: 55px;
+            background-color:#10c9c3;
+            border: none;
+            font-family: def;
+            font-size: 15px;
+            color: #ffffff;
+        }
+        /*Linh da chinh xong */
+    
+
+
+
+
+
+
+
+        /* kết thúc section contact info */
+
+
+        /* section MAP - contact */
+        #map {
+            background-color: #f5f5f5;
+        }
+        .map {
+            padding: 6%;
+        }
+
+
+
+/* bài onepage */
+
+
+
+        /* section khối 1 onpage */
+        .k1-image {
+            height: 670px;
+            box-sizing: border-box;
+            background-image: url(onepage-pic3.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #k1 {
+            box-sizing:border-box;
+        }
+        .k1-onepage {
+
+            margin: 6% 5% 0 65%;
+            padding: 1%;
+        }
+        .k1-onepage h1 {
+            font-size: 30px;       
+            font-family: k1-h1;
+
+        }
+        @font-face {
+            font-family: k1-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+        .k1-onepage p {
+            font-family: k1-p;
+            color: #787878;
+            font-size: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+        @font-face {
+            font-family: k1-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+
+
+        /* Kết thúc khối 1 */
+
+
+        /* Section Khối thứ 2 - about us */
+        #khoi2 {
+            
+            box-sizing: border-box;
+        }
+        .k2-onepage h1 {
+            font-size: 30px;       
+            font-family: k2-h1;
+        }
+        @font-face {
+            font-family: k2-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .k2-onepage p {
+            font-family: k2-p;
+            color: #787878;
+            font-size: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+        @font-face {
+            font-family: k2-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+        .k2-onepage {
+            text-align: center;
+            padding: 6%;
+        }
+        /* kết thúc khối thứ 2 */
+
+
+
+        /* Khối 3 Professional Skills */
+        .skills h1 {
+            font-family: k3-h1;
+
+        }
+        @font-face {
+            font-family: k3-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+
+        .skills label {
+            font-family: k3-label;
+
+        }
+        @font-face {
+            font-family: k3-label;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        #khoi3 {
+            
+            
+            box-sizing: border-box;
+            overflow: auto;
+            background-color: #f9f9f9;
+        }
+        .skills {
+            width: 50%;
+            box-sizing:border-box;
+            padding: 11% 8% 0 5%;
+            
+            
+            
+        }
+        .skill-pic, .skills {
+            float: left;
+            width: 50%;
+        }
+        .skill-pic {
+            box-sizing:border-box;
+            height: 570px;
+                        
+        }
+        .skill-pic img {
+            width: 100%;
+            
+        }
+        #file, #file1, #file2 {
+            width: 100%;
+            color: #10c9c3;
+            height: 10px;
+        }
+
+
+
+
+
+        /* Khối thứ 6 K 6 */
+
+        #k6 {
+            
+            background-color: #f5f5f5;
+            box-sizing:border-box;
+            padding: 3%;
+        }
+        #k6 p {
+            text-transform: uppercase;
+            color: #8e8e8e;
+            font-family: k6-p;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+            
+        }
+        @font-face {
+            font-family: k6-p;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        /* kết thúc khối 6 */
+
+
+        /* Khối 7 có video */
+        #k7 {
+            
+            box-sizing: border-box;
+        }
+
+        .k7-text {
+            text-align: center;
+            padding: 2%;
+
+        }
+
+        .k7-text h1 {
+            font-size: 30px;       
+            font-family: k7-h1;
+        }
+        @font-face {
+            font-family: k7-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .k7-text p {
+            font-family: k2-p;
+            color: #787878;
+            font-size: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+        @font-face {
+            font-family: k2-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+        .k7-video {
+            text-align: center;
+            padding-bottom: 3%
+            
+        }
+
+
+
+        /* Khối 8 toàn icon */
+        #k8 {
+            
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            padding: 6%;
+        }
+        
+            /* group 1 : dùng display flex */
+        .group-1 {
+            overflow: auto;
+            text-align: center;            
+        }
+        .group-2 {
+            margin-top: 2%;
+        }
+
+        .a {
+            float: left;
+            width: 25%;
+        }
+        .a i {
+            font-size: 30px;
+        }
+            /* group 2: dùng float: left */
+        .group-2 {
+            overflow: auto;
+            text-align: center;
+        }
+        .b {
+            float: left;
+            width: 25%;
+        }
+        .b i {
+            font-size: 30px;
+        }
+
+            /* style cho kiểu chữ khối 8 */
+        .a h3, .b h3 {
+            font-family: k8-h3;
+            text-transform: uppercase;
+             
+
+        }
+        @font-face {
+            font-family: k8-h3;
+            src: url(Montserrat-Medium.otf)
+        }
+        .a p, .b p {
+            font-family: k8-p;
+            color: #787878;
+
+        }
+        @font-face {
+            font-family: k8-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+
+
+
+
+        /* kết thúc khối 8 */
+
+
+
+        /* Khối 9 */
+        #k9 {
+            background-color: #10c9c3;
+            
+            box-sizing: border-box;
+            text-align: center;
+            padding: 11% 6%;
+        }
+
+        #k9 h2 {
+            font-size: 25px;       
+            font-family: k9-h2;
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 35px;
+        }
+        @font-face {
+            font-family: k9-h2;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        #k9 p {
+            font-family: k2-p;
+            color: #fff;
+            font-size: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+        @font-face {
+            font-family: k2-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+
+        /* Khối 10 - client */
+        #k10 {
+            
+            box-sizing: border-box;
+            padding: 4%;
+        }
+        .client {
+            display: flex;
+           
+        }
+        .client1, .client2, .client3, .client4, .client5 {
+            width: 20%;
+            text-align: center;
+        }
+
+        /* Khối 11 - Need a Project? */
+        #k11 {
+            
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+        }
+        .table {
+            text-align: center;
+            width: 70%;
+            margin: auto;
+            padding-bottom: 5%;
+        }
+        .k11-text {
+            text-align: center;  
+            padding-top: 5%;
+            padding-bottom: 2%;
+        }
+        .k11-text h1 {
+            font-size: 25px;       
+            font-family: k11-h1;
+            
+            margin-top: 0;
+
+            line-height: 35px;
+        }
+        @font-face {
+            font-family: k11-h1;
+            src: url(Montserrat-Medium.otf)
+        }
+
+        .k11-text p {
+            font-family: k11-p;
+            color: #787878;
+            font-size: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+        @font-face {
+            font-family: k11-p;
+            src: url(nunito-sans.regular.ttf)
+        }
+
+        .table button {         
+            color: white;
+            background-color: #10c9c3;
+            width: 200px;
+            border: none;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-family: k11-button;
+        }
+        @font-face {
+            font-family: k11-button;
+            src: url(Montserrat-Medium.otf)
+        }
+
+
+        /* Mobile nav */
+            .nav__bars-btn {
+                width: 28px;
+                height: 28px;
+                color: black;
+            }
+
+
+
+
+/* responsive từng bài */
+        @media screen and (max-width: 1040px) {
+            .nav .logo {
+                font-size: 32px;
+                padding-left: 50px;
+            }
+        }
+        @media screen and (max-width: 909px) {
+
+    /* bài HOME */
+            
+            /* section bài piroll-home */
+                /* header */
+                .nav .logo {
+                    font-size: 32px;
+                }
+                .nav #icon {
+                    display: block;
+                }
+
+                .nav ul {
+                    position : fixed;
+                    width: 100%;
+                    height: 100vh;
+                    background:#f5f5f5;
+                    top: 80px;
+                    left: -100%;
+                    text-align: center;
+                    transition: all .5s;
+                }
+
+                .nav ul li {
+                    display: block;
+                }
+
+                .nav ul.show {
+                    left : 0;
+                }
+                
+                .nav ul li a {
+                    font-size: 24px;
+                    
+                }
+
+                
+
+                .text h1 {
+                    font-size: 25px;
+                }
+                .text p {
+                    font-size: 15px;
+                }
+                /* text */
+
+
+                /* images */
+            .img img {
+                width: 33.33%;
+                
+            }
+           
+           
+            .k3-1, .k3-2 {
+                display: none;
+            }
+            .k1, .k2 {
+                width: 40%;
+            }
+            .foot .k3 {
+                width: 20%;
+                margin: 0;
+                padding: 0;
+            }
+    /* bài About */
+            #text-about {
+                background-image: none;
+            }
+            .text-about h1, .text-about p {
+                color: black;
+            }
+
+            /* icon */
+            .icon-bag, .icon-clock, .icon-star, .icon-heart {
+                width: 50%;
+                
+
+            }
+            .icon-bag, .icon-clock {
+                padding-bottom: 2%;
+            }
+            /* about-me bài about */
+            .about-me-pic, .about-me-text {
+                
+                width: 100%;
+            }
+            .about-me-text {
+                padding-left: 10%;
+            }
+
+                /* bài contact */
+        /*CONTACT LINH CHINH*/
+            .contact-infor {
+                width: 100%;
+            
+                text-align: center;
+            }
+            .send {
+                width: 98%;
+                padding: 1%;
+            }
+            .send .button {
+                margin-left: 40%;
+            }
+        /*PROJECT LINH SUA*/
+            .proj, .project-img {
+                width: 100%;
+            }
+            .project-img img {
+                width: 100%;
+                
+            } 
+            .proj {
+                text-align: center;
+            }      
+            .nav ul li a {
+                font-size: 13px;
+            }
+            .k3-pic {
+                padding-top: 2%;
+            }
+
+
+    /* bài onepage */
+            /* Khối 1 */
+            .k1-image {
+                background-image: none;
+                height: 300px;
+            }
+            .k1-onepage {
+                margin: auto;
+                text-align: center;
+            }
+
+            /* Khối 3 */
+            .skills, .skill-pic {
+                width: 100%;
+            }
+            .skills {
+                padding: 4%
+            }
+
+            /* Khối 4 */
+            #icon-ong {
+                padding-left: 15%
+            }
+
+
+            /* Khối 7 video */
+            video {
+                height: 400px;
+            }
+
+            /* Khối 8 ui/ux design */
+            .a, .b {
+                width: 50%;
+            }
+            
+
+            
+        }
+
+
+        @media screen and (max-width: 480px) {
+    
+        /* Mobile nav */
+
+            .nav ul li a {
+                font-size: 3px;
+            }
+
+            .img img {
+                width: 50%;
+                padding: 0;
+            }
+            .k1, .k2 {
+                width: 50%;
+            }
+            label #btn {
+                display: block;
+            }
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background: pink;
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+            }
+            .nav ul li {
+                display: block;
+                margin: 20px 0;
+                line-height: 0px;
+            }
+            .nav ul li a {
+                font-size: 17px;
+            }
+            #check:checked ~ ul {
+                left: 0;
+                
+            }
+            
+        
+
+        /* bài about */
+            .text-about h1 {
+                font-size: 23px;
+            
+            }
+            .text-about p {
+                font-size: 13px;
+            
+            }
+            .icon-bag, .icon-clock, .icon-star, .icon-heart {
+                width: 100%;
+            }
+            .icon-bag, .icon-clock, .icon-star {
+                margin-bottom: 2%;
+            }
+            /* ảnh */
+            .about-me-pic img {
+                width: 100%;
+                height: 400px;
+            }
+        /* bài con tact */
+        /*CONTACT Linh Chinh*/
+        .send .button {
+            margin-left: 25%;
+            }
+
+        /* bài onepage */
+            /* Khối 7 */
+            video {
+                height: 250px;
+            }
+            
+        }
+
+
+        
+
+
+
+        
+    
+
+
